@@ -1,0 +1,8 @@
+{
+    "ignoreRoot": [
+      ".git"
+    ],
+    "ignore": [
+      "node_modules"
+    ]
+  }

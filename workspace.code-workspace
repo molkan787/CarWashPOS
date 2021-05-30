@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "apos_v"
+		},
+		{
+			"path": "electron"
+		},
+		{
+			"path": "Server"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "apos-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "DrmStudio (Seghier Dahmane)",
+  "license": "ISC",
+  "dependencies": {
+    "excel4node": "^1.7.1",
+    "gmail-send": "^1.2.14",
+    "knex": "^0.16.3",
+    "md5": "^2.2.1",
+    "mysql2": "^1.6.5",
+    "nodemailer": "^6.2.1",
+    "objection": "^1.6.3",
+    "randomstring": "^1.1.5",
+    "restify": "^8.1.1",
+    "restify-cookies": "^0.2.5",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-errors": "^7.0.0",
+    "xlsx": "^0.14.3"
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "name": "drmstudio.apos",
+    "version": "1.0.4",
+    "author": {
+        "name": "Seghier Dahmane",
+        "email": "seghier.dahmane@outlook.com"
+    },
+    "main": "main.js",
+    "dependencies": {
+        "electron-download-manager": "^2.3.0",
+        "escpos": "^2.5.2",
+        "restify": "^8.1.1",
+        "restify-cors-middleware": "^1.1.1",
+        "restify-errors": "^7.0.0"
+    },
+    "devDependencies": {
+        "electron": "^6.0.11",
+        "electron-builder": "^20.44.4"
+    },
+    "scripts": {
+        "dist": "build"
+    },
+    "build": {
+        "appId": "eu.drmstudio.apos",
+        "productName": "APOS",
+        "win": {
+            "target": "nsis"
+        },
+        "buildDependenciesFromSource": true
+    }
+}
