@@ -2,7 +2,7 @@ const { app, BrowserWindow } = require('electron')
 const DownloadManager = require("electron-download-manager")
 const server = require('./server');
 
-const DEV = false;
+const DEV = true;
 global.DEV = DEV;
 
 const port = DEV ? 8080 : 8083;

@@ -18,7 +18,8 @@
         "electron-builder": "^20.44.4"
     },
     "scripts": {
-        "dist": "build"
+        "dist": "build",
+        "start": "electron ."
     },
     "build": {
         "appId": "eu.drmstudio.apos",
